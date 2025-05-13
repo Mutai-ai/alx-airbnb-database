@@ -10,5 +10,6 @@
   
 ## 3NF - Third Normal Form
 
-- There are no transitive dependencies.
-- All non-key attributes depend only on the primary key and not on other non-key attributes.
+-In the Property table, `location` is a textual field likely to be repeated.
+- This creates transitive dependency: `property → location (text)` which may lead to redundancy.
+- So we separate it by introducing another table 'Location'
