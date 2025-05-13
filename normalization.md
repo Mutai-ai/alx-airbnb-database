@@ -1,4 +1,4 @@
-##1NF - First Normal Form
+## 1NF - First Normal Form
 
 - All tables have atomic columns (no multiple values in one column).
 - Each record is uniquely identifiable via a primary key (UUID).
